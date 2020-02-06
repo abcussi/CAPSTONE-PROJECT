@@ -1,7 +1,3 @@
-body {
-  background-color: aliceblue;  
-}
-
 .navbar {
   background-color: #888888;
   color: white;
@@ -11,10 +7,12 @@ body {
 .logo img{
   width: 177px;
   border-radius: 5%;
+  filter: invert(100%);
 }
+
 .logo img:hover{
-  border: 1px solid black;
   cursor: pointer;
+  background-color: white;
 }
 
 .navbar button {
@@ -29,4 +27,26 @@ body {
 
 .navbar div {
   border: none !important; 
+}
+
+main {
+  margin-top: 100px;
+}
+
+.v-cont {
+  background: rgb(211,82,102);
+  background: linear-gradient(0deg, rgba(211,82,102,1) 71%, rgba(136,136,136,1) 100%);
+}
+
+.content-left {
+  color: white;
+  padding: 2rem;
+}
+
+.category{
+  color: white;
+}
+
+.dots > * {
+    list-style-type: none;
 }
