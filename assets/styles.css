@@ -40,7 +40,9 @@ main {
 
 .content-left {
   color: white;
-  padding: 2rem;
+  padding-left: 15px;
+  width: auto;
+  float: left;
 }
 
 .category{
@@ -48,5 +50,29 @@ main {
 }
 
 .dots > * {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+.logo-side img {
+  margin-left: 15%;
+  width: 60%;
+  filter: grayscale(); 
+}
+
+.cont-rigth > div{
+  height: 200px;
+}
+
+main section  {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.social > li {
+  border-radius: 20%;
+  border: 1px solid #888888;
+}
+.social > li:hover {
+  background-color: #D35266;
+  color: white;
 }
