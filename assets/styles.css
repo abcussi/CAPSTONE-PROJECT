@@ -1,0 +1,32 @@
+body {
+  background-color: aliceblue;  
+}
+
+.navbar {
+  background-color: #888888;
+  color: white;
+  height: 75%;
+}
+
+.logo img{
+  width: 177px;
+  border-radius: 5%;
+}
+.logo img:hover{
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.navbar button {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+
+.navbar button i{
+  padding-right: 10px;
+}
+
+.navbar div {
+  border: none !important; 
+}
