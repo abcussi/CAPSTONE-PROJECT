@@ -75,7 +75,8 @@ main {
 }
 
 .logo-side img {
-  margin-left: 15%;
+  display: block;
+  margin: auto;
   width: 60%;
   filter: grayscale(); 
 }
@@ -155,7 +156,9 @@ main section div div small{
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    height: 70px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
   }
   .logo img{
     width: 130px;
@@ -163,12 +166,21 @@ main section div div small{
   }
 
   .logo{
-    padding: 10px;
+    padding: 30px;
     margin: 0;
-    background-color: ivory;
+    background-image: url(https://assets.coingecko.com/markets/images/172/large/abcc.png?1546228821);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(); 
+    cursor: pointer;
+  }
+
+  .phone-v {
+    display: inline-flex;
   }
   .phone-v > div{
-    width: 20px;
+    width: auto!important;
     padding: 0;
     margin: 0;
   }
@@ -178,11 +190,12 @@ main section div div small{
   .phone-v button span {
     display: none;
   }
-  .phone-v button i{
-    width: 100%;
+  .phone-v div >i{
+    font-size: 2rem;
   }
   .phone-v button {
     padding: 0;
+    border: none;
   }
 
   .v-cont {
@@ -194,5 +207,31 @@ main section div div small{
   .content-left {
     max-width: 100%;
     float: none;
+  }
+
+  .check-cont {
+    display: none;
+  }
+  .category div ul{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .category{
+    max-width: 90%;
+  }
+  .category p {
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .grad {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  main section div div img{
+    height: 400px;
+  }
+  .grad div{
+  display: block;
+  margin: o auto;
   }
 }
