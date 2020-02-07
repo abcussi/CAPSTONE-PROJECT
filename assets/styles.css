@@ -66,6 +66,28 @@ main {
 main section  {
   margin-right: 0;
   padding-right: 0;
+  
+}
+
+.grad{
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 87%, rgba(136,136,136,1) 100%);
+}
+
+main section div div img{
+  height: 200px;
+}
+
+main section div div h5{
+  font-size: 16px;
+}
+
+main section div div p{
+  font-size: 12px;
+}
+
+main section div div small{
+  font-size: 10px;
 }
 
 .social > li {
