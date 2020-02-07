@@ -38,6 +38,14 @@ main {
   background: linear-gradient(0deg, rgba(211,82,102,1) 71%, rgba(136,136,136,1) 100%);
 }
 
+.v-cont label:hover{
+  cursor: pointer;
+}
+
+.v-cont input:hover{
+  cursor: pointer;
+}
+
 .content-left {
   color: white;
   padding-left: 15px;
@@ -51,6 +59,19 @@ main {
 
 .dots > * {
   list-style-type: none;
+  cursor: pointer;
+}
+
+.dots  ul > *:hover{
+  font-weight: bold;
+}
+
+.price-point div:hover{
+  cursor: pointer;
+}
+
+.price-point div input:hover{
+  cursor: pointer;
 }
 
 .logo-side img {
@@ -97,4 +118,15 @@ main section div div small{
 .social > li:hover {
   background-color: #D35266;
   color: white;
+}
+
+.img-cont-fot img{
+  height: 150px;
+  width: 150px;
+  margin-left: 100px;
+  filter: grayscale();
+}
+
+.img-modal img {
+  width: 100%;
 }
