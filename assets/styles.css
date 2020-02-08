@@ -235,3 +235,24 @@ main section div div small{
   margin: o auto;
   }
 }
+
+/* search */
+
+.search-b {
+  background-color: #D35266;
+}
+
+.car {
+  
+ height: 600px;
+}
+
+.car h3 {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.car p {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
