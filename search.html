@@ -12,35 +12,38 @@
     <script src="https://kit.fontawesome.com/99498ca542.js" crossorigin="anonymous"></script>
     <script>
       $(document).ready(function(){
-        $("#exampleModal3").modal('show');
+        $("#exampleModal2").modal('show');
       });
     </script>
 </head>
 <body >
   <header class="container-fluid fixed-top"> 
     <nav class="navbar ">
-        <DIV class="col-md-3 logo mh-100 " >
+        <div class="col-md-3 logo mh-100 " >
             <img src="https://www.digitalnotice.in/wp-content/uploads/2019/09/ABCC-Exchange.png" alt="abcc logo" data-toggle="modal" data-target="#exampleModal2">
-        </DIV>
+        </div>
 
-        <div class="row col-md-5 phone-v d-flex justify-content-around">
-        <DIV class="col-md-3 text-center btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal2">
-            <i class="fas fa-home fa-3x"></i> <span>HOME</span>
-        </DIV>
-        <DIV class="col-md-3 text-center btn btn-outline-dark input-find " data-toggle="modal" data-target="#exampleModal">
-          <i class="fas fa-search fa-3x"></i><span >SEARCH</span>
-        </DIV>
-        <a href="search.html"><DIV class="col-md text-center btn btn-outline-dark " >
+        <div class="row col-md-5 phone-v d-flex justify-content-center">
+        <div class="col-md-3 text-center btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal2">
+            <i class="fas fa-home fa-3x"></i> <span><br> HOME</span>
+        </div>
+        <div class="col-md-3 text-center btn btn-outline-dark input-find " data-toggle="modal" data-target="#exampleModal">
+          <i class="fas fa-search fa-3x"></i><span > <br>SEARCH</span>
+        </div>
+        <a href="search.html"><div class="col-md text-center btn btn-outline-dark " >
             <i class="fas fa-th fa-3x "></i> <br><span >SEE ALL</span>
-        </DIV></a>
-        <DIV class="col-md-3 d-flex justify-content-center" data-toggle="modal" data-target="#exampleModal3">
+        </div></a>
+        <div class="col-md-3 d-flex justify-content-center" data-toggle="modal" data-target="#exampleModal3">
             <button class="btn btn-large btn-outline-dark btn-lg"><i class="fas fa-ad fa-2x"> </i><span> ADD AN AD</span>  </button>
-        </DIV>
+        </div>
         </div>
     </nav>
 </header> 
     <main class="container-fluid row  pb-4 " >
       <aside class="col search-side"> 
+        <h4 class="text-center text-danger m-4">
+          BEST SELLER
+        </h4>
         <div class="col-sm-9 mw-100 m-0 p-0 col-lg-9 col-md-6 pl-4 mt-4">
           <a href="search.html" class="text-decoration-none">  
          <div class="card">
@@ -112,7 +115,12 @@
              </a>
        </div>
       </aside>
-        <div id="demo" class="carousel slide car col-md-9 search-b mt-4" data-ride="carousel">
+     
+      <div class="col-md-9 v-mobile2 mt-4">
+        <h1 class="text-danger text-center m-4">
+          NEW IN STOCK
+        </h1>
+        <div id="demo" class="carousel slide car search-b" data-ride="carousel">
             <ul class="carousel-indicators">
               <li data-target="#demo" data-slide-to="0" class="active"></li>
               <li data-target="#demo" data-slide-to="1"></li>
@@ -148,7 +156,130 @@
               <span class="carousel-control-next-icon"></span>
             </a>
           </div>
-
+        <h1 class="text-danger text-center m-4">
+          NEWEST PHONES
+        </h1>
+<div id="video-carousel-example" class="carousel slide carousel-fade car mt-4" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+    <li data-target="#video-carousel-example" data-slide-to="1"></li>
+    <li data-target="#video-carousel-example" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner car" role="listbox">
+    <div class="carousel-item active">
+      <video class="video-fluid" autoplay loop muted>
+        <source src="media/video1.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="carousel-item car">
+      <video class="video-fluid" autoplay loop muted>
+        <source src="media/video2.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="carousel-item car">
+      <video class="video-fluid" autoplay loop muted>
+        <source src="media/video3.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">prev</span>
+  </a>
+  <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">next</span>
+  </a>
+</div>
+  <!-- grid -->
+  <h1 class="text-center text-danger m-4">
+    50% OFF ONLY TODAY
+  </h1>
+  <div class="grid size">
+  
+    <div class="grid-item">
+      <img src="https://images.samsung.com/is/image/samsung/uk-galaxy-tab-4-10-1-t530-sm-t530nykabtu-010-front-black" alt="tab">
+      <div class="text-center text-danger">
+        <br>
+        <h4>
+          only 370$ with Shipping
+        </h4>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="https://images.samsung.com/is/image/samsung/uk-galaxy-tab-3-10-1-p5210-gt-p5210mkvbtu-005-front-black" alt="tab">
+      <div class="text-center text-danger">
+        <br>
+        <h4>
+          only 300$ with Shipping
+        </h4>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="https://images.samsung.com/is/image/samsung/uk-galaxy-tab-3-10-1-p5220-gt-p5220zwabtu-002-front-white" alt="tab">
+      <div class="text-center text-danger">
+        <br>
+        <h4>
+          only 150$ with Shipping
+        </h4>
+      </div>
+    </div>  
+    <div class="grid-item">
+      <img src="https://images.samsung.com/is/image/samsung/hk-en_GT-P5220ZWATGY_002_4G_white?$L1-Thumbnail$" alt="tab">
+      <div class="text-center text-danger">
+        <br>
+        <h4>
+          only 190$ with Shipping
+        </h4>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="https://techaddicts.uk/wp-content/uploads/2017/02/Samsung-TabS3_Dynamic-Pen_Black_LTE.png" alt="tab">
+      <div class="text-center text-danger">
+        <br>
+        <h4>
+          only 215$ with Shipping
+        </h4>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="https://images.samsung.com/is/image/samsung/uk-galaxy-view-18-4-t670-sm-t670nzkabtu-000000001-front-black" alt="tab">
+      <div class="text-center text-danger">
+        <br>
+        <h4>
+          only 210$ with Shipping
+        </h4>
+      </div>
+    </div>  
+    <div class="grid-item">
+      <img src="https://images.anandtech.com/doci/11160/Tab%20S3_with%20White%20Book%20Cover.png" alt="tab">
+      <div class="text-center text-danger">
+        <br>
+        <h4>
+          only 200$ with Shipping
+        </h4>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="https://www.getac.com/wp-content/uploads/2018/12/tmp-tablets-hero.png " alt="tab">
+      <div class="text-center text-danger">
+        <br>
+        <h4>
+          only 220$ with Shipping
+        </h4>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="https://www.mobihealthnews.com/sites/default/files/121880_0.png" alt="tab">
+      <div class="text-center text-danger">
+        <br>
+        <h4>
+          only 250$ with Shipping
+        </h4>
+      </div>
+    </div> 
+  </div>
+        </div>
     </main>
 
 

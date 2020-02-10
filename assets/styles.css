@@ -2,6 +2,10 @@ body{
   max-width: 1440px;
 }
 
+.grad  a {
+  color: #D35266;
+}
+
 header{
   padding: 0 !important;
 }
@@ -257,7 +261,6 @@ main section div div small{
 }
 
 .car {
-  
  height: 600px;
 }
 
@@ -269,4 +272,89 @@ main section div div small{
 .car p {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+  color: #D35266;
+  margin: 15px;
+} 
+
+.search-side a {
+  color: #D35266;
+}
+
+.size {
+  margin-top: 40px;
+  height: 900PX;
+  width: 100%;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  background-image: url("https://firstendurance.com/wp-content/uploads/2018/11/50-off.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  grid-gap: 1em;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+}
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .v-mobile2 {
+    max-width: 100%;
+    padding: 0;
+  }
+  main {
+    margin: 0 !important;
+  }
+  .car div div img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .v-mobile2{
+    max-width: 100%;
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr ;
+    background-repeat: repeat-y;
+  }
+  .size {
+    height: auto;
+  }
+  
+  .navbar div {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width:375px){
+  .grid {
+    grid-template-columns: 1fr;
+    background-repeat: repeat-y;
+  }
+
+  .size{
+    height: auto;
+  }
+
+  .navbar div {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
