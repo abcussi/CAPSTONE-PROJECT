@@ -12,7 +12,10 @@ header {
 
 main {
   padding: 0 !important;
-  margin-top: 100px;
+}
+
+.cont-top{
+  margin-top: 100px !important;
 }
 
 .navbar {
