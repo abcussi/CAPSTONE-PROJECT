@@ -1,33 +1,34 @@
-body{
+body {
   max-width: 1440px;
 }
 
-.grad  a {
-  color: #D35266;
+.grad a {
+  color: #d35266;
 }
 
-header{
+header {
   padding: 0 !important;
 }
 
-main{
+main {
   padding: 0 !important;
+  margin-top: 100px;
 }
 
 .navbar {
-  background-color: #888888;
+  background-color: #888;
   color: white;
   height: 75%;
   max-width: 1440px;
 }
 
-.logo img{
+.logo img {
   width: 177px;
   border-radius: 5%;
   filter: invert(100%);
 }
 
-.logo img:hover{
+.logo img:hover {
   cursor: pointer;
   background-color: white;
 }
@@ -38,28 +39,24 @@ main{
   align-items: center;
 }
 
-.navbar button i{
+.navbar button i {
   padding-right: 10px;
 }
 
 .navbar div {
-  border: none !important; 
-}
-
-main {
-  margin-top: 100px;
+  border: none !important;
 }
 
 .v-cont {
-  background: rgb(211,82,102);
-  background: linear-gradient(0deg, rgba(211,82,102,1) 71%, rgba(136,136,136,1) 100%);
+  background: rgb(211, 82, 102);
+  background: linear-gradient(0deg, rgba(211, 82, 102, 1) 71%, rgba(136, 136, 136, 1) 100%);
 }
 
-.v-cont label:hover{
+.v-cont label:hover {
   cursor: pointer;
 }
 
-.v-cont input:hover{
+.v-cont input:hover {
   cursor: pointer;
 }
 
@@ -70,7 +67,7 @@ main {
   float: left;
 }
 
-.category{
+.category {
   color: white;
 }
 
@@ -79,15 +76,15 @@ main {
   cursor: pointer;
 }
 
-.dots  ul > *:hover{
+.dots ul > *:hover {
   font-weight: bold;
 }
 
-.price-point div:hover{
+.price-point div:hover {
   cursor: pointer;
 }
 
-.price-point div input:hover{
+.price-point div input:hover {
   cursor: pointer;
 }
 
@@ -95,56 +92,56 @@ main {
   display: block;
   margin: auto;
   width: 60%;
-  filter: grayscale(); 
+  filter: grayscale (1);
 }
 
-.cont-rigth > div{
+.cont-rigth > div {
   height: 200px;
 }
 
-main section  {
+main section {
   margin-right: 0;
   padding-right: 0;
-  
 }
 
-.grad{
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 87%, rgba(136,136,136,1) 100%);
+.grad {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 87%, rgba(136, 136, 136, 1) 100%);
 }
 
-main section div div img{
+main section div div img {
   height: 200px;
   width: 236.5px;
 }
 
-main section div div h5{
+main section div div h5 {
   font-size: 16px;
 }
 
-main section div div p{
+main section div div p {
   font-size: 12px;
 }
 
-main section div div small{
+main section div div small {
   font-size: 10px;
 }
 
 .social > li {
   border-radius: 20%;
-  border: 1px solid #888888;
+  border: 1px solid #888;
 }
+
 .social > li:hover {
-  background-color: #D35266;
+  background-color: #d35266;
   color: white;
 }
 
-.img-cont-fot img{
+.img-cont-fot img {
   height: 150px;
   width: 150px;
   display: block;
   margin: auto;
-  filter: grayscale();
+  filter: grayscale(1);
 }
 
 .img-modal img {
@@ -152,20 +149,23 @@ main section div div small{
 }
 
 @media only screen and (max-width: 1024px) {
-  main section div div img{
+  main section div div img {
     height: 150px;
   }
-  main section div div h5{
+
+  main section div div h5 {
     font-size: 12px;
   }
-  
-  main section div div p{
+
+  main section div div p {
     font-size: 10px;
   }
+
   .price-point {
     margin: 0 !important;
     padding: 0 !important;
   }
+
   .category {
     margin-left: 30px !important;
     padding: 0 !important;
@@ -178,48 +178,54 @@ main section div div small{
     margin: 0;
     padding: 0;
   }
-  .logo img{
+
+  .logo img {
     width: 130px;
     display: none;
   }
 
-  .logo{
+  .logo {
     padding: 30px;
     margin: 0;
     background-image: url(https://assets.coingecko.com/markets/images/172/large/abcc.png?1546228821);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    filter: grayscale(); 
+    filter: grayscale (1);
     cursor: pointer;
   }
 
   .phone-v {
     display: inline-flex;
   }
-  .phone-v > div{
-    width: auto!important;
+
+  .phone-v > div {
+    width: auto !important;
     padding: 0;
     margin: 0;
   }
+
   .phone-v div > span {
     display: none;
   }
+
   .phone-v button span {
     display: none;
   }
-  .phone-v div >i{
+
+  .phone-v div > i {
     font-size: 2rem;
   }
+
   .phone-v button {
     padding: 0;
     border: none;
   }
 
   .v-cont {
-    background: #D35266 !important;
+    background: #d35266 !important;
     width: 100% !important;
-    height:100%;
+    height: 100%;
   }
 
   .content-left {
@@ -230,38 +236,44 @@ main section div div small{
   .check-cont {
     display: none;
   }
-  .category div ul{
+
+  .category div ul {
     margin: 0 auto;
     text-align: center;
   }
-  .category{
+
+  .category {
     max-width: 90%;
   }
+
   .category p {
     padding-bottom: 40px;
     text-align: center;
   }
+
   .grad {
     margin: 0 auto;
     max-width: 100%;
   }
-  main section div div img{
+
+  main section div div img {
     height: 400px;
   }
-  .grad div{
-  display: block;
-  margin: o auto;
+
+  .grad div {
+    display: block;
+    margin: 0 auto;
   }
 }
 
 /* search */
 
 .search-b {
-  background-color: #D35266;
+  background-color: #d35266;
 }
 
 .car {
- height: 600px;
+  height: 600px;
 }
 
 .car h3 {
@@ -275,17 +287,17 @@ main section div div small{
 }
 
 h1 {
-  color: #D35266;
+  color: #d35266;
   margin: 15px;
-} 
+}
 
 .search-side a {
-  color: #D35266;
+  color: #d35266;
 }
 
 .size {
   margin-top: 40px;
-  height: 900PX;
+  height: 900px;
   width: 100%;
 }
 
@@ -307,6 +319,7 @@ h1 {
   text-align: center;
   border: none;
 }
+
 .grid-item img {
   width: 100%;
   height: auto;
@@ -317,39 +330,43 @@ h1 {
     max-width: 100%;
     padding: 0;
   }
+
   main {
     margin: 0 !important;
   }
-  .car div div img{
+
+  .car div div img {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 425px) {
-  .v-mobile2{
+  .v-mobile2 {
     max-width: 100%;
   }
+
   .grid {
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     background-repeat: repeat-y;
   }
+
   .size {
     height: auto;
   }
-  
+
   .navbar div {
     margin-right: 20px;
     margin-left: 20px;
   }
 }
 
-@media only screen and (max-width:375px){
+@media only screen and (max-width: 375px) {
   .grid {
     grid-template-columns: 1fr;
     background-repeat: repeat-y;
   }
 
-  .size{
+  .size {
     height: auto;
   }
 
