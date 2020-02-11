@@ -1,6 +1,6 @@
-# Using Bootstrap
+# Capstone project
 
-> This project consists of replicating the https://thenextweb.com/ website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
+> It's a real-world-like project, built with business specifications, it's a rpoject based on a shopping page with 2 pages index and search, bouth of them are in the repo.
 
 ![screenshot](./app_screenshot.png)
 
