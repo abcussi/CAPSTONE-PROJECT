@@ -11,7 +11,7 @@ it's a project based on a shopping page with 2 pages "index" and "searches", bot
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/abcussi/CAPSTONE-PROJECT/169deaa796ce92ea02c7f214d7837d1cc6be0b69/index.html)
+[Live Demo Link](https://rawcdn.githack.com/abcussi/CAPSTONE-PROJECT/a8777d64bfe3cd44fe3ce6442ff93d01cf5fd291/index.html)
 
 ## Author
 
