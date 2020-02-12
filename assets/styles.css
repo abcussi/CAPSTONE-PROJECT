@@ -175,6 +175,10 @@ footer {
   background: linear-gradient(0deg, rgba(211,82,102,1) 10%, rgba(255,255,255,1) 100%);
 }
 
+.grad div div {
+  background-color: rgba(255, 255, 255, 0.623);
+}
+
 @media only screen and (max-width: 1024px) {
   main section div div img {
     height: 150px;
@@ -218,7 +222,9 @@ footer {
   }  
 
   .grad {
-    background: white !important;
+    margin-top: -16px !important;
+    background: rgb(211,82,102);
+    background: linear-gradient(180deg, rgba(211,82,102,0.8267682072829132) 55%, rgba(255,255,255,1) 92%);
   }
 
   .logo img {
@@ -265,7 +271,8 @@ footer {
   }
 
   .v-cont {
-    background: #d35266 !important;
+    background: rgb(136,136,136);
+    background: linear-gradient(180deg, rgba(136,136,136,0.8) 0%, rgba(211,82,102,0.8267682072829132) 55%);
     width: 100% !important;
     height: 100%;
   }
@@ -286,6 +293,8 @@ footer {
 
   .category {
     max-width: 90%;
+    border-top: none !important;
+    padding-top: 1em !important;
   }
 
   .category p {
