@@ -20,7 +20,7 @@ main {
 
 .navbar {
   background-color: #888;
-  opacity: 0.80;
+  opacity: 0.8;
   color: white;
   max-width: 1440px;
 }
@@ -50,13 +50,13 @@ main {
   border: none !important;
 }
 
-.btn-nav-fix div{
+.btn-nav-fix div {
   height: 100%;
 }
 
 .v-cont {
-  background: rgb(136,136,136);
-  background: linear-gradient(180deg, rgba(136,136,136,0.8) 0%, rgba(211,82,102,0.8267682072829132) 55%);
+  background: rgb(136, 136, 136);
+  background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 82, 102, 0.8267682072829132) 55%);
 }
 
 .v-cont label:hover {
@@ -112,8 +112,8 @@ main section {
 }
 
 .grad {
-  background: rgb(136,136,136);
-  background: linear-gradient(180deg, rgba(136,136,136,0.8) 0%, rgba(211,211,211,0) 55%);
+  background: rgb(136, 136, 136);
+  background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 211, 211, 0) 55%);
 }
 
 main section div div img {
@@ -171,8 +171,8 @@ main section div div small {
 }
 
 footer {
-  background: rgb(211,82,102);
-  background: linear-gradient(0deg, rgba(211,82,102,1) 10%, rgba(255,255,255,1) 100%);
+  background: rgb(211, 82, 102);
+  background: linear-gradient(0deg, rgba(211, 82, 102, 1) 10%, rgba(255, 255, 255, 1) 100%);
 }
 
 .grad div div {
@@ -201,6 +201,7 @@ footer {
     margin-left: 30px !important;
     padding: 0 !important;
   }
+
   .check-cont {
     display: flex;
     flex-direction: column;
@@ -219,12 +220,14 @@ footer {
 
   .cont-top {
     margin-top: 120px !important;
-  }  
+  }
 
   .grad {
+    margin: 0 auto;
     margin-top: -16px !important;
-    background: rgb(211,82,102);
-    background: linear-gradient(180deg, rgba(211,82,102,0.8267682072829132) 55%, rgba(255,255,255,1) 92%);
+    background: rgb(211, 82, 102);
+    background: linear-gradient(180deg, rgba(211, 82, 102, 0.8267682072829132) 55%, rgba(255, 255, 255, 1) 92%);
+    max-width: 100%;
   }
 
   .logo img {
@@ -271,8 +274,8 @@ footer {
   }
 
   .v-cont {
-    background: rgb(136,136,136);
-    background: linear-gradient(180deg, rgba(136,136,136,0.8) 0%, rgba(211,82,102,0.8267682072829132) 55%);
+    background: rgb(136, 136, 136);
+    background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 82, 102, 0.8267682072829132) 55%);
     width: 100% !important;
     height: 100%;
   }
@@ -300,11 +303,6 @@ footer {
   .category p {
     padding-bottom: 40px;
     text-align: center;
-  }
-
-  .grad {
-    margin: 0 auto;
-    max-width: 100%;
   }
 
   main section div div img {
@@ -343,8 +341,8 @@ h1 {
 }
 
 .search-side {
-  background: rgb(136,136,136);
-  background: linear-gradient(180deg, rgba(136,136,136,0.8) 0%, rgba(211,211,211,0) 55%);
+  background: rgb(136, 136, 136);
+  background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 211, 211, 0) 55%);
 }
 
 .size {
@@ -378,12 +376,12 @@ h1 {
 }
 
 .v-mobile2 {
-  background: rgb(136,136,136);
-  background: linear-gradient(180deg, rgba(136,136,136,0.8) 0%, rgba(211,211,211,0) 55%);
+  background: rgb(136, 136, 136);
+  background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 211, 211, 0) 55%);
 }
 
 .cont-search {
-  margin-top: 105px ;
+  margin-top: 105px;
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
@@ -396,7 +394,8 @@ h1 {
   .v-mobile2 {
     max-width: 100%;
     padding: 0;
-    background: white;
+    background: rgb(136, 136, 136);
+    background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 211, 211, 0) 75%);
   }
 
   main {
@@ -406,6 +405,7 @@ h1 {
   .car div div img {
     width: 100%;
   }
+
   .phone-v a {
     align-content: center;
     align-items: center;
@@ -413,17 +413,15 @@ h1 {
     display: block;
     margin: 0 auto;
   }
+
   .phone-v {
     display: block;
     margin: 0 auto;
   }
+
   .search-side {
-    margin-top: 120px ;
-    background: rgba(136, 136, 136, 0.80);
-  }
-  .v-mobile2 {
-    background: rgb(136,136,136);
-    background: linear-gradient(180deg, rgba(136,136,136,0.8) 0%, rgba(211,211,211,0) 75%);
+    margin-top: 120px;
+    background: rgba(136, 136, 136, 0.8);
   }
 }
 
@@ -440,6 +438,7 @@ h1 {
   .size {
     height: auto;
   }
+
   .phone-v a {
     align-content: center;
     align-items: center;
