@@ -99,7 +99,7 @@ main {
   display: block;
   margin: auto;
   width: 60%;
-  filter: grayscale (1);
+  filter: grayscale(1);
 }
 
 .cont-rigth > div {
@@ -242,7 +242,7 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    filter: grayscale (1);
+    filter: grayscale(1);
     cursor: pointer;
   }
 
