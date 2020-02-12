@@ -1,6 +1,7 @@
 # Capstone project
 
-> It's a real-world-like project, built with business specifications, it's a rpoject based on a shopping page with 2 pages index and search, bouth of them are in the repo.
+> It's a real-world-like project, built with business specifications.
+it's a project based on a shopping page with 2 pages "index" and "searches", both of them are in the repo.
 
 ![screenshot](./app_screenshot.png)
 
