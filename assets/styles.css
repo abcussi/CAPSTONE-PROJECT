@@ -388,6 +388,10 @@ h1 {
   margin-right: 0 !important;
 }
 
+.search-side div div {
+  background-color: rgba(255, 255, 255, 0.623);
+}
+
 @media only screen and (max-width: 768px) {
   .v-mobile2 {
     max-width: 100%;
@@ -415,6 +419,11 @@ h1 {
   }
   .search-side {
     margin-top: 120px ;
+    background: rgba(136, 136, 136, 0.80);
+  }
+  .v-mobile2 {
+    background: rgb(136,136,136);
+    background: linear-gradient(180deg, rgba(136,136,136,0.8) 0%, rgba(211,211,211,0) 75%);
   }
 }
 
