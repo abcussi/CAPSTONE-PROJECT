@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/99498ca542.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="container-fluid fixed-top"> 
+        <nav class="navbar ">
+            <div class="col-md-3 logo mh-100 " >
+                <img src="https://www.digitalnotice.in/wp-content/uploads/2019/09/ABCC-Exchange.png" alt="abcc logo" data-toggle="modal" data-target="#exampleModal2">
+            </div>
+
+            <div class="row col-sm-8 phone-v d-flex justify-content-end">
+              <a href="index.html"><div class="col-sm text-center btn btn-outline-dark " data-toggle="modal" data-target="#exampleModal2">
+                <i class="fas fa-home fa-3x"></i> <br><span>HOME</span>
+            </div></a>
+            <a ><div class="col-sm text-center btn btn-outline-dark input-find " data-toggle="modal" data-target="#exampleModal">
+              <i class="fas fa-search fa-3x"></i><br><span >SEARCH</span>
+            </div></a>
+            <a href="search.html"><div class="col-sm text-center btn btn-outline-dark " >
+                <i class="fas fa-th fa-3x "></i> <br><span >SEE ALL</span>
+            </div></a>
+            <div class="btn-nav-fix"><div class="col-sm d-flex justify-content-center" data-toggle="modal" data-target="#exampleModal3">
+                <button class="btn btn-large btn-outline-dark btn-lg"><i class="fas fa-ad fa-2x"> </i><span> ADD AN AD</span>  </button>
+            </div></div>
+            </div>
+        </nav>
+    </header> 
+    <main class="container-fluid cont-top">
+        <aside class="col-3 content-left p-0">
+            <div class="v-cont col">
+                <div class="row p-5 check-cont">
+                    <div class="check-mov">
+                        <div class="form-check ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">OFEERS</label>
+                          </div>
+                          <div class="form-check ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">BEST </label>
+                          </div>
+                    </div>
+                    <div class=" pb-4">
+                        <div class="form-check ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">NEWER</label>
+                          </div>
+                          <div class="form-check ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                            <label class="form-check-label" for="inlineCheckbox4">OLDERS</label>
+                          </div>
+                    </div>
+                    <div class=" border-top pt-4 price-point">
+                        <h3 class="form-inline">Price Range</h3>
+                        <div>
+                            <input class="checkbox-margin-right" type="radio" name="inlineRadioOptions" value="option1"> 10 $ - 100 $
+                        </div>
+                        <div>
+                            <input class="checkbox-margin-right" type="radio" name="inlineRadioOptions" value="option2"> 100 $ - 200 $
+                        </div>
+                        <div>
+                            <input class="checkbox-margin-right" type="radio" name="inlineRadioOptions" value="option3"> 200 $ - 300 $
+                        </div>
+                        <div>
+                            <input class="checkbox-margin-right" type="radio" name="inlineRadioOptions" value="option4"> + 300 $
+                        </div>
+                    </div>
+                </div>
+                <section  class="col-9 category border-top  ml-4"> 
+                    <div class="d-flex justify-content-center mr-3 mt-4">
+                        <h3 class="form-inline ">CATEGORY</h3>
+                    </div>
+                    <div class="text-left dots ml-2">
+                        <ul class="m-0 p-0">
+                            <li class="pt-2 pb-2 ">
+                                computer accesories & peripherals
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                computer components
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                computer & tablets  
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                data storage
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                external components
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                laptop accesories
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                monitors
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                networking products 
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                power strips & surge protectors
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                printers
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                scanners
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                servers
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                tablet accesories
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                tablet replacement parts
+                            </li>
+                            <li class="border-top pt-2 pb-2">
+                                warranties & service
+                            </li>
+                        </ul>
+                    </div>
+                </section> 
+
+                <div class="logo-side">
+                    <img src="https://miro.medium.com/max/1396/1*ZRLIy2PxBDq_WH8TJn0cFA.png" alt="abcc logo">
+                </div>
+                <div class="category text-center pb-4">
+                    <p>
+                        Copyright©abcc.com. Site by Angel Cussi Design by Mohammed Awad on Behance
+                    </p>
+                </div>
+            </div>
+        </aside>
+        <section class=" row col-lg-9 col-sm-8 grad" >
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6  pl-4 mt-4">
+              <a href="search.html" class="text-decoration-none">
+                <div class="card ">
+                    <img class="card-img-top img-fluid" src="https://www.plantronics.com/content/dam/plantronics/products/backbeat/backbeat-pro-2-black.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">plantonics headphones</h5>
+                      <p class="card-text">Original Telephonics...</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">15 MORE IN STOCK</small>
+                    </div>
+                  </div>
+                </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4 ">
+               <a href="search.html" class="text-decoration-none ">  
+              <div class="card ">
+                    <img class="card-img-top img-fluid" src="https://cdn.shopify.com/s/files/1/3013/1908/products/Audeze-Mobius-Product-Shots---Oct-2018-CarbonFrontMic_2000x.png?v=1569532062" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">GAMER SET</h5>
+                      <p class="card-text">GAMER AUDIO 7.1....</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">100 MORE IN SOTCK</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://www.kygolife.com/media/catalog/product/cache/afad95d7734d2fa6d0a8ba78597182b7/a/1/a11_black_perspective_2019_0705_1.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">WIRELESS</h5>
+                      <p class="card-text">wireless with a big battery....</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">500 MORE IN STOCK</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://www.plantronics.com/content/dam/plantronics/products/backbeat-fit-500-black.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">PLT SETT SORROUND</h5>
+                      <p class="card-text">Plt best sound and clean...</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">10 MORE IN STOCK</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://cdn.shopify.com/s/files/1/2404/0041/products/2_900x.png?v=1568921273" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">H100 Noise Cancelling Headphones</h5>
+                      <p class="card-text">Designed to deliver an elite...</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">55 MORE IN SOTCK (WORLD)</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://www.microsemi.com/images/storage/smartraid_3154-24iv2.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title"> RAID Controllers Adaptec </h5>
+                      <p class="card-text">Controler adapter card.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">155 MORE IN SOTCK (WORLD)</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://www.cfd.co.jp/uploads/product/20055/0730143308779-PT01-199-999575.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">AMD Computer Component ventilador</h5>
+                      <p class="card-text"> ventilador to z-102.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">54 MORE IN SOTCK (WORLD)</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://www.aorus.com/upload/Album/2017080211044352_big.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">AORUS MOTHERBOARD</h5>
+                      <p class="card-text">Motherboard with corssfire and overlooking.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">553 MORE IN SOTCK (WORLD)</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://i.pinimg.com/originals/36/5f/7f/365f7f9bc1c1c89b714a26a24aefb0cc.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">VENGANCE</h5>
+                      <p class="card-text">Motherboard vengace without corssfire.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">231 MORE IN SOTCK (WORLD)</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://images.anandtech.com/doci/6989/MSI%20Z87-GD65%20Gaming%20Box%20Board.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">MSI MOTHERBOARD</h5>
+                      <p class="card-text">Motherboard MSI ASAS B450 6Gb....</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">12 MORE IN SOTCK (WORLD)</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://www.gigabyte.com/FileUpload/JP/KeyFeature/854/img/product/68.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">VIDEO CARD GV-RXVEGA56GAMING </h5>
+                      <p class="card-text">OC-8GD Gb Radeon Rx Vega...</p>
+                    </div>  
+                    <div class="card-footer">
+                      <small class="text-muted">5 MORE IN SOTCK (WORLD)</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://i5.walmartimages.com/asr/2208b853-4a9e-4b30-b92c-6f8ec31b2735_2.ecdf7b40ed41dcc1dd0e2ef8a886ab5e.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Details about iView 7" Tablet</h5>
+                      <p class="card-text">Enjoy the versatility and con...</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-danger font-weight-bold">OUT OF STOCK (COMING)</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://cnet4.cbsistatic.com/img/tA1bRhUngBfDHPJrSMigctMVy7U=/1092x0/2011/11/04/f7ed2f8a-fdc5-11e2-8c7c-d4ae52e62bcc/35056112_OVR.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">PENDIGITEL TAB "7</h5>
+                      <p class="card-text">cheapest tab....</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">100 IN STOCK</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://images.anandtech.com/doci/11159/Galaxy%20Book%2012in%20Silver_2.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">TAB "10 SAMSUNG</h5>
+                      <p class="card-text">Smsung tab 10.1 2gb...</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">3 MORE IN STOCK</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://shop.rcaav.com/wp-content/uploads/sites/3/2019/08/062118697367_AV1_RCT6973W43MDN-1.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">RCA 7" Voyager II</h5>
+                      <p class="card-text">RCA tab "7 8gb ram....</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last one</small>
+                    </div>
+                  </div>
+                  </a>
+            </div><div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://images.samsung.com/is/image/samsung/uk-galaxy-tab-3-7-0-t2105-sm-t2105gyabtu-018-front-yellow" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">KIDS TAB</h5>
+                      <p class="card-text">tab "7 1gb to kids...</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last one</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://www.benq.com/content/dam/b2c/en-us/products/monitors/g-series/gw2480/gallery/GW2480_Front.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">MONITOR BENQ</h5>
+                      <p class="card-text">monitor 144hz.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">3 MORE IN STOCK</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://www.chillblast.com/images/product/pg27vq1.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">ASUS MONITOR</h5>
+                      <p class="card-text">asus monitor 27" 2k.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://stack-i5jmnpwxzrbawq.stackpathdns.com/wp-content/uploads/2019/02/IRON-HERO.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">IRON-INSIDE</h5>
+                      <p class="card-text">laptop semi-pro.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last one</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+            <div class="col-sm-9 m-0 p-0 col-lg-3 col-md-6 pl-4 mt-4">
+               <a href="search.html" class="text-decoration-none">  
+              <div class="card">
+                    <img class="card-img-top img-fluid" src="https://cdn.vox-cdn.com/thumbor/0ga1uA62U8zxSfQSB4l4FmbUCx8=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/13671669/ASUS_ZenBook_S13_UX392_powerful_performance_with_discrete_graphics.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">ASUS ZENBOX</h5>
+                      <p class="card-text">Ultrabook station...</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">12 IN STOCK</small>
+                    </div>
+                  </div>
+                  </a>
+            </div>
+      </section>
+    </main>
+
+<footer class=" pt-4">
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-4 mx-auto img-cont-fot">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-center">Abcc store</h5>
+          <img src="https://assets.coingecko.com/markets/images/172/large/abcc.png?1546228821" alt="abcc logo">
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">pc</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="search.html">computer</a>
+            </li>
+            <li>
+              <a href="search.html">components</a>
+            </li>
+            <li>
+              <a href="search.html">accesories</a>
+            </li>
+            <li>
+              <a href="search.html">more</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">laptop</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="search.html">newest</a>
+            </li>
+            <li>
+              <a href="search.html">models</a>
+            </li>
+            <li>
+              <a href="search.html">olders</a>
+            </li>
+            <li>
+              <a href="search.html">good price</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">tabs & cellphones</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="search.html">tabs "7</a>
+            </li>
+            <li>
+              <a href="search.html">tabs "10</a>
+            </li>
+            <li>
+              <a href="search.html">laptop - tab</a>
+            </li>
+            <li>
+              <a href="search.html">models</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <ul class="list-unstyled list-inline text-center py-2 ">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Register for free</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-danger " data-toggle="modal" data-target="#exampleModal2">Sign up!</a>
+      </li>
+    </ul>
+    <hr>
+    <ul class="list-unstyled list-inline text-center social">
+      <li class="list-inline-item">
+        <a class="btn-floating btn ">
+          <i class="fab fa-facebook-f fa-2x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn">
+          <i class="fab fa-twitter fa-2x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn">
+          <i class="fab fa-github fa-2x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn">
+          <i class="fab fa-linkedin-in fa-2x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn">
+          <i class="fab fa-instagram fa-2x"> </i>
+        </a>
+      </li>
+    </ul>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://github.com/abcussi"> abcc.com</a>
+    </div>
+  </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" >FIND ANYTHING YOU WANT</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <form class="was-validated" action="search.html">
+          <div class="custom-control custom-checkbox mb-5">
+            <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+            <label class="custom-control-label" for="customControlValidation1">Agree with all of our <a href="#">terms</a></label>
+            <div class="invalid-tooltip">
+              Please accept to continue
+            </div>
+          </div>
+          <div class="form-group col-md ml-0 p-0 mb-5">
+            <select class="custom-select" required>
+              <option value="">Select the category</option>
+              <option value="1">accesories PC</option>
+              <option value="2">PC components</option>
+              <option value="3">PC & tablets</option>
+              <option value="4">monitor</option>
+            </select>
+            <div class="invalid-tooltip">
+              Please provide a valid city.
+            </div>
+          </div>
+
+          <div class="form-group row mb-5">
+            <div class="col-sm-10">
+              <div class="input-group">
+                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="what are you lookig for?" aria-describedby="customControlValidation1" required>
+                <div class="invalid-tooltip">
+                  Please choose a unique and valid username.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary" >Search</button>
+      </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal2 -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body img-modal">
+        <img src="https://ieee-columbus.org/wp-content/uploads/sites/28/Under-construction.png" alt="under construction">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal3 -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" >Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="text-danger">
+          If you want contact to me :) <a href="https://github.com/abcussi">ABCC developer</a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

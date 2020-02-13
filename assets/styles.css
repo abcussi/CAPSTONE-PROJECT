@@ -1,0 +1,460 @@
+body {
+  max-width: 1440px;
+}
+
+.grad a {
+  color: #d35266;
+}
+
+header {
+  padding: 0 !important;
+}
+
+main {
+  padding: 0 !important;
+}
+
+.cont-top {
+  margin-top: 105px !important;
+}
+
+.navbar {
+  background-color: #888;
+  opacity: 0.8;
+  color: white;
+  max-width: 1440px;
+}
+
+.logo img {
+  width: 177px;
+  border-radius: 5%;
+  filter: invert(100%);
+}
+
+.logo img:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.navbar button {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+
+.navbar button i {
+  padding-right: 10px;
+}
+
+.navbar div {
+  border: none !important;
+}
+
+.btn-nav-fix div {
+  height: 100%;
+}
+
+.v-cont {
+  background: rgb(136, 136, 136);
+  background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 82, 102, 0.8267682072829132) 55%);
+}
+
+.v-cont label:hover {
+  cursor: pointer;
+}
+
+.v-cont input:hover {
+  cursor: pointer;
+}
+
+.content-left {
+  color: white;
+  padding-left: 15px;
+  width: auto;
+  float: left;
+}
+
+.category {
+  color: white;
+}
+
+.dots > * {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.dots ul > *:hover {
+  font-weight: bold;
+}
+
+.price-point div:hover {
+  cursor: pointer;
+}
+
+.price-point div input:hover {
+  cursor: pointer;
+}
+
+.logo-side img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  filter: grayscale(1);
+}
+
+.cont-rigth > div {
+  height: 200px;
+}
+
+main section {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.grad {
+  background: rgb(136, 136, 136);
+  background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 211, 211, 0) 55%);
+}
+
+main section div div img {
+  height: 200px;
+  width: 236.5px;
+}
+
+main section div div h5 {
+  font-size: 16px;
+}
+
+main section div div p {
+  font-size: 12px;
+}
+
+main section div div small {
+  font-size: 10px;
+}
+
+.social > li {
+  border-radius: 20%;
+  border: 1px solid #888;
+}
+
+.social > li:hover {
+  background-color: #d35266;
+  color: white;
+}
+
+.img-cont-fot img {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: auto;
+  filter: grayscale(1);
+}
+
+.img-modal img {
+  width: 100%;
+}
+
+.check-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-point {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background: rgb(211, 82, 102);
+  background: linear-gradient(0deg, rgba(211, 82, 102, 1) 10%, rgba(255, 255, 255, 1) 100%);
+}
+
+.grad div div {
+  background-color: rgba(255, 255, 255, 0.623);
+}
+
+@media only screen and (max-width: 1024px) {
+  main section div div img {
+    height: 150px;
+  }
+
+  main section div div h5 {
+    font-size: 12px;
+  }
+
+  main section div div p {
+    font-size: 10px;
+  }
+
+  .price-point {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .category {
+    margin-left: 30px !important;
+    padding: 0 !important;
+  }
+
+  .check-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    height: 120px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cont-top {
+    margin-top: 120px !important;
+  }
+
+  .grad {
+    margin: 0 auto;
+    margin-top: -16px !important;
+    background: rgb(211, 82, 102);
+    background: linear-gradient(180deg, rgba(211, 82, 102, 0.8267682072829132) 55%, rgba(255, 255, 255, 1) 92%);
+    max-width: 100%;
+  }
+
+  .logo img {
+    width: 130px;
+    display: none;
+  }
+
+  .logo {
+    padding: 30px;
+    margin: 0;
+    background-image: url(https://assets.coingecko.com/markets/images/172/large/abcc.png?1546228821);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(1);
+    cursor: pointer;
+  }
+
+  .phone-v {
+    display: inline-flex;
+  }
+
+  .phone-v > div {
+    width: auto !important;
+    padding: 0;
+    margin: 0;
+  }
+
+  .phone-v div > span {
+    display: none;
+  }
+
+  .phone-v button span {
+    display: none;
+  }
+
+  .phone-v div > i {
+    font-size: 2rem;
+  }
+
+  .phone-v button {
+    padding: 0;
+    border: none;
+  }
+
+  .v-cont {
+    background: rgb(136, 136, 136);
+    background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 82, 102, 0.8267682072829132) 55%);
+    width: 100% !important;
+    height: 100%;
+  }
+
+  .content-left {
+    max-width: 100%;
+    float: none;
+  }
+
+  .check-cont {
+    display: none;
+  }
+
+  .category div ul {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .category {
+    max-width: 90%;
+    border-top: none !important;
+    padding-top: 1em !important;
+  }
+
+  .category p {
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  main section div div img {
+    height: 400px;
+  }
+
+  .grad div {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* search */
+
+.car {
+  height: 600px;
+}
+
+.car h3 {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.car p {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+  color: #d35266;
+  margin: 15px;
+}
+
+.search-side a {
+  color: #d35266;
+}
+
+.search-side {
+  background: rgb(136, 136, 136);
+  background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 211, 211, 0) 55%);
+}
+
+.size {
+  margin-top: 40px;
+  height: 900px;
+  width: 100%;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  background-image: url("https://firstendurance.com/wp-content/uploads/2018/11/50-off.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  grid-gap: 1em;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.v-mobile2 {
+  background: rgb(136, 136, 136);
+  background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 211, 211, 0) 55%);
+}
+
+.cont-search {
+  margin-top: 105px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.search-side div div {
+  background-color: rgba(255, 255, 255, 0.623);
+}
+
+@media only screen and (max-width: 768px) {
+  .v-mobile2 {
+    max-width: 100%;
+    padding: 0;
+    background: rgb(136, 136, 136);
+    background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(211, 211, 211, 0) 75%);
+  }
+
+  main {
+    margin: 0 !important;
+  }
+
+  .car div div img {
+    width: 100%;
+  }
+
+  .phone-v a {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .phone-v {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .search-side {
+    margin-top: 120px;
+    background: rgba(136, 136, 136, 0.8);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .v-mobile2 {
+    max-width: 100%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    background-repeat: repeat-y;
+  }
+
+  .size {
+    height: auto;
+  }
+
+  .phone-v a {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .grid {
+    grid-template-columns: 1fr;
+    background-repeat: repeat-y;
+  }
+
+  .size {
+    height: auto;
+  }
+}
